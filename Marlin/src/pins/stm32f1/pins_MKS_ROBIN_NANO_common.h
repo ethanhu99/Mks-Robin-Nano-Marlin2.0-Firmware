@@ -127,7 +127,7 @@
     #define PS_ON_PIN                       PB2   // PW_OFF
   #endif
   #define KILL_PIN                          PA2
-  #define KILL_PIN_STATE                    HIGH
+  #define KILL_PIN_STATE                    LOW
 #endif
 
 //
