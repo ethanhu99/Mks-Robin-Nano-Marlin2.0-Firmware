@@ -133,6 +133,10 @@
 //
 // Misc. Functions
 //
+#ifndef FIL_RUNOUT_PIN
+  #define FIL_RUNOUT_PIN                    PA4   // MT_DET
+#endif
+
 #if HAS_TFT_LVGL_UI
   #define MT_DET_1_PIN                      PA4
   #define MT_DET_2_PIN                      PE6
